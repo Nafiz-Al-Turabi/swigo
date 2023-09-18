@@ -1,0 +1,27 @@
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 70px;
+    padding: 10px 20px;
+    border: 2px solid #a70000;
+    color: #000101;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.scroll-to-top-button:hover {
+    background-color: #a70000;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+
+.scroll-to-top-button.visible {
+    bottom: 20px;
+    transform: scale(1);
+}
+
+.scroll-to-top-button:active {
+    transform: scale(0.95);
+    /* Adjust the scale value as needed */
+}
