@@ -2,16 +2,15 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    height: 70px;
     padding: 10px 20px;
-    border: 2px solid #a70000;
+    border: 2px solid #ee2737;
     color: #000101;
-    border-radius: 50%;
+    border-radius: 8px;
     cursor: pointer;
 }
 
 .scroll-to-top-button:hover {
-    background-color: #a70000;
+    background-color: #ee2737;
     transition: 0.3s ease-in-out;
     color: #fff;
 }
@@ -22,6 +21,6 @@
 }
 
 .scroll-to-top-button:active {
-    transform: scale(0.95);
+    transform: scale(0.80);
     /* Adjust the scale value as needed */
 }

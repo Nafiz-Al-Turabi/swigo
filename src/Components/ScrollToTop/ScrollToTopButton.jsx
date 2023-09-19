@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineArrowUp } from "react-icons/ai";
 import './ScrollToTopButton.css'
 
+
 function ScrollToTopButton() {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -32,7 +33,7 @@ function ScrollToTopButton() {
             <button
                 onClick={scrollToTop}
                 className="scroll-to-top-button">
-                <AiOutlineArrowUp className='text-3xl' />
+                <AiOutlineArrowUp className='text-xl' />
             </button>
         )
     );

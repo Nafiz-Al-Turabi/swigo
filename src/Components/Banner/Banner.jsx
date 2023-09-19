@@ -18,13 +18,15 @@ const Banner = () => {
         >
             <div className='max-w-6xl mx-auto md:flex justify-between pt-20 relative'>
                 <div className=''>
-                    <h1 className='text-gray-800 text-7xl italic font-extrabold leading-snug'>The Number <span className='text-red-600'>#1</span> <br /> Choice Your Hunger <br /> Solution</h1>
+                    <h1 
+                    style={{fontFamily:'Lobster'}}
+                    className='text-gray-800 text-[80px] leading-[1.2]'>The Number <span className='text-red-600'>#1</span> <br /> Choice Your Hunger <br /> Solution</h1>
                     <p className='w-1/2 text-lg text-gray-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero et minus neque debitis iure ut placeat nostrum inventore ipsa delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aut quidem quasi ullam sint beatae.</p>
                     <div className='flex space-x-6 mt-10'>
                         <button className='banner-btn text-lg text-white font-semibold bg-red-600 py-3 px-5  rounded-lg '>Book a Table</button>
                         <button className='banner-btn text-lg text-red-500 font-semibold py-3 px-5 border border-red-600 rounded-lg hover:bg-red-600 hover:text-white hover:shadow-red-500 duration-300 ease-linear '>View More</button>
                     </div>
-                    <div className='flex space-x-5 mt-20'>
+                    <div className='flex space-x-5 mt-[90px]'>
                         <div className='bg-red-50 text-red-600  p-3 rounded-lg hover:bg-red-600 hover:text-white duration-500 ease-in cursor-pointer'>
                             <PiHamburgerThin className='text-6xl'/>
                         </div>

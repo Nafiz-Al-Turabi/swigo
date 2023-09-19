@@ -1,0 +1,89 @@
+.card {
+    height: 450px;
+    background: #fff;
+    border: 1px solid #e1e0e0;
+    overflow: hidden;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    z-index: 2;
+    perspective: 1000px; 
+}
+.card:hover{
+    border: 1px solid #ee2737;
+    
+}
+
+.card:hover .img-1 {
+    animation: rotateImg 10s infinite ease-in-out; 
+}
+
+.card .overlay {
+    width: 318px;
+    height: 318px;
+    border-radius: 50%;
+    background: #ee2737;
+    position: absolute;
+    top: -400px;
+    left: 144px;
+    transform: translateX(-50%) scale(1); 
+    transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
+    overflow: hidden; 
+}
+.card .overlay-1{
+    width: 318px;
+    height: 318px;
+    border-radius: 50%;
+    background: #f4f4f4;
+    position: absolute;
+    top: -400px;
+    left: 144px;
+    transform: translateX(-50%) scale(2.3); 
+    transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
+    overflow: hidden; 
+}
+
+.card .overlay  {
+    pointer-events: none; 
+    z-index: -1; 
+    transition-delay: 0.3s; 
+}
+
+.card:hover .overlay {
+    top: -170px;
+    pointer-events: auto; 
+    z-index: -1; 
+    transition-delay: 0s; 
+}
+.card .overlay-1  {
+    pointer-events: none; 
+    z-index: -2; 
+    transition-delay: 0.3s; 
+}
+
+.card:hover .overlay-1 {
+    top: 0px;
+    pointer-events: auto; 
+    z-index: -2; 
+    transition-delay: 0s; 
+}
+
+.img-1 {
+    border: 10px solid white;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+@keyframes rotateImg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
