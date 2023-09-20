@@ -1,0 +1,7 @@
+.book-table {
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0.775)), url('https://i.ibb.co/QdB1JkV/featured.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}

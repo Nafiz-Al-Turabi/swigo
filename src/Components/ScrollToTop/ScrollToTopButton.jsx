@@ -32,8 +32,8 @@ function ScrollToTopButton() {
         isVisible && (
             <button
                 onClick={scrollToTop}
-                className="scroll-to-top-button">
-                <AiOutlineArrowUp className='text-xl' />
+                className="scroll-to-top-button z-40">
+                <AiOutlineArrowUp className='text-xl ' />
             </button>
         )
     );

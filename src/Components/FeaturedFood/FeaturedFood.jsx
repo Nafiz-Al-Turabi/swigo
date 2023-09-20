@@ -19,7 +19,7 @@ const FeaturedFood = () => {
                     <h2 className='text-2xl  font-bold text-gray-800'>Pizza</h2>
                     <p className='text-center text-gray-600 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, illo.</p>
                     <h3 className='text-xl font-bold text-red-500 mb-4'>$25.5</h3>
-                    <button className='bg-red-500 py-3 px-4 text-lg rounded-lg font-bold text-white mt-2'>Add To Cart</button>
+                    <button className='banner-btn bg-red-500 py-3 px-4 text-lg rounded-lg font-bold text-white mt-2'>Add To Cart</button>
                 </div>
                 <div className='card p-4'>
                     <div className='overlay'></div>
@@ -30,7 +30,7 @@ const FeaturedFood = () => {
                     <h2 className='text-2xl  font-bold text-gray-800'>Green Salad</h2>
                     <p className='text-center text-gray-600 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, illo.</p>
                     <h3 className='text-xl font-bold text-red-500 mb-4'>$45.5</h3>
-                    <button className='bg-red-500 py-3 px-4 text-lg rounded-lg font-bold text-white mt-2'>Add To Cart</button>
+                    <button className='banner-btn bg-red-500 py-3 px-4 text-lg rounded-lg font-bold text-white mt-2'>Add To Cart</button>
                 </div>
                 <div className='card p-4'>
                     <div className='overlay'></div>
@@ -41,7 +41,7 @@ const FeaturedFood = () => {
                     <h2 className='text-2xl  font-bold text-gray-800'>Rice</h2>
                     <p className='text-center text-gray-600 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, illo.</p>
                     <h3 className='text-xl font-bold text-red-500 mb-4'>$50</h3>
-                    <button className='bg-red-500 py-3 px-4 text-lg rounded-lg font-bold text-white mt-2'>Add To Cart</button>
+                    <button className='banner-btn bg-red-500 py-3 px-4 text-lg rounded-lg font-bold text-white mt-2'>Add To Cart</button>
                 </div>
                 <div className='card p-4'>
                     <div className='overlay'></div>
@@ -52,7 +52,7 @@ const FeaturedFood = () => {
                     <h2 className='text-2xl  font-bold text-gray-800'>Pasta</h2>
                     <p className='text-center text-gray-600 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, illo.</p>
                     <h3 className='text-xl font-bold text-red-500 mb-4'>$30</h3>
-                    <button className='bg-red-500 py-3 px-4 text-lg rounded-lg font-bold text-white mt-2'>Add To Cart</button>
+                    <button className='banner-btn bg-red-500 py-3 px-4 text-lg rounded-lg font-bold text-white mt-2'>Add To Cart</button>
                 </div>
             </div>
         </div>

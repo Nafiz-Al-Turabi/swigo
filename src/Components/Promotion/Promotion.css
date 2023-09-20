@@ -1,0 +1,23 @@
+.promotion {
+    background-image: linear-gradient(to left, #f8c8c8f8, #f8dcdcf7), url('https://i.ibb.co/BB0WpCF/set.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+.promotion-animation:hover {
+    animation: shake 2s ease ;
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(-5px);
+    }
+    30%, 50%, 70%, 90% {
+      transform: translateY(5px);
+    }
+  }
+  
