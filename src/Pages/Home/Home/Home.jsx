@@ -4,10 +4,14 @@ import ScrollToTopButton from '../../../Components/ScrollToTop/ScrollToTopButton
 import FeaturedFood from '../../../Components/FeaturedFood/FeaturedFood';
 import BookTable from '../../../Components/BookTable/BookTable';
 import Promotion from '../../../Components/Promotion/Promotion';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title>SWIGO | Home</title>
+            </Helmet>
             <Banner></Banner>
             <FeaturedFood></FeaturedFood>
             <Promotion></Promotion>

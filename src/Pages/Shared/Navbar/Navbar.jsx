@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
     return (
-        <nav className={`z-40 p-4 fixed w-full navbar ${scrolled ? 'scrolled' : ''}`}>
+        <nav className={`z-10 p-4 fixed w-full navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="max-w-6xl mx-auto flex justify-between items-center">
                 <div className="flex items-center space-x-10">
                     {/* Logo */}
@@ -33,7 +33,7 @@ const Navbar = () => {
                     {/* Desktop Menu */}
                     <ul className='md:flex space-x-5 '>
                         <Link to="/" className="text-cyan-950 text-lg hover:text-red-600 duration-500 ease-in-out ">Home</Link>
-                        <Link to="/" className="text-cyan-950 text-lg hover:text-red-600 duration-500 ease-in-out ">Our menu</Link>
+                        <Link to="/menu" className="text-cyan-950 text-lg hover:text-red-600 duration-500 ease-in-out ">Our menu</Link>
                         <Link to="/" className="text-cyan-950 text-lg hover:text-red-600 duration-500 ease-in-out ">Our Shop</Link>
                         <Link to="/" className="text-cyan-950 text-lg hover:text-red-600 duration-500 ease-in-out ">Contact Us</Link>
                         <Link to="/" className="text-cyan-950 text-lg hover:text-red-600 duration-500 ease-in-out ">Dashboard</Link>
