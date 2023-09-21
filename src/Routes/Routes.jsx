@@ -15,7 +15,7 @@ export const router = createBrowserRouter([
             {
                 path: '/',
                 element: (
-                    <DelayedLoader delay={5000}> {/* For Loading screen */}
+                    <DelayedLoader delay={2000}> {/* For Loading screen */}
                         <Home />
                     </DelayedLoader>
                 ),

@@ -29,39 +29,39 @@ const OurMenu = () => {
                 <div className='flex justify-between items-center'>
                     <div className='flex items-center mt-5'>
                         <button
-                            className={`mx-2 ${selectedCategory === 'All' ? 'py-2 px-5 font-bold bg-red-100 text-red-500 rounded-lg' : ' py-2 px-5 font-bold hover:text-red-500 hover:bg-red-100 hover:rounded-lg duration-300 '}`}
+                            className={`mx-2 ${selectedCategory === 'All' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : ' py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('All')}
                         >
                             All
                         </button>
                         <button
-                            className={`mx-2 ${selectedCategory === 'Salad' ? 'py-2 px-5 font-bold bg-red-100 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-100 hover:rounded-lg duration-300 '}`}
+                            className={`mx-2 ${selectedCategory === 'Salad' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Salad')}
-                        >
+                        ><i class="fa-solid fa-carrot mr-4"></i>
                             Salad
                         </button>
                         <button
-                            className={`mx-2 ${selectedCategory === 'Soup' ? 'py-2 px-5 font-bold bg-red-100 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-100 hover:rounded-lg duration-300 '}`}
+                            className={`mx-2 ${selectedCategory === 'Soup' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Soup')}
-                        >
+                        ><i class="fa-solid fa-bowl-food mr-4"></i>
                             Soup
                         </button>
                         <button
-                            className={`mx-2 ${selectedCategory === 'Pizza' ? 'py-2 px-5 font-bold bg-red-100 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-100 hover:rounded-lg duration-300 '}`}
+                            className={`mx-2 ${selectedCategory === 'Pizza' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Pizza')}
-                        >
+                        ><i class="fa-solid fa-pizza-slice mr-4"></i>
                             Pizza
                         </button>
                         <button
-                            className={`mx-2 ${selectedCategory === 'Dessert' ? 'py-2 px-5 font-bold bg-red-100 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-100 hover:rounded-lg duration-300 '}`}
+                            className={`mx-2 ${selectedCategory === 'Dessert' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Dessert')}
-                        >
+                        ><i class="fa-solid fa-ice-cream mr-4"></i>
                             Dessert
                         </button>
                         <button
-                            className={`mx-2 ${selectedCategory === 'Popular' ? 'py-2 px-5 font-bold bg-red-100 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-100 hover:rounded-lg duration-300 '}`}
+                            className={`mx-2 ${selectedCategory === 'Popular' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Popular')}
-                        >
+                        ><i class="fa-solid fa-users mr-4"></i>
                             Popular
                         </button>
                     </div>
