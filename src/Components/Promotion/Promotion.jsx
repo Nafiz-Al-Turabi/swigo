@@ -7,7 +7,7 @@ import { BiDish } from "react-icons/bi";
 
 const Promotion = () => {
     return (
-        <div className='my-32'>
+        <div className='mt-32'>
             <div className='promotion max-w-6xl mx-auto rounded-3xl'>
                 <h1 style={{fontFamily:'Lobster'}} className='text-6xl text-center text-gray-800 pt-20'>Why Choose Us ?</h1>
                 <div className='flex justify-around mt-20'>

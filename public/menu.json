@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "name": "Creamy Mushroom Soup",
+      "category": "Starters",
+      "description": "A rich and creamy soup made with fresh mushrooms.",
+      "price": 5.99
+    },
+    {
+      "id": 2,
+      "name": "Stuffed Mushrooms",
+      "category": "Starters",
+      "description": "Mushroom caps stuffed with a savory filling.",
+      "price": 7.99
+    },
+    {
+      "id": 3,
+      "name": "Grilled Caesar Salad",
+      "category": "Starters",
+      "description": "Crisp romaine lettuce with Caesar dressing and croutons.",
+      "price": 6.49
+    },
+    {
+      "id": 4,
+      "name": "Signature Autumn Salad",
+      "category": "Starters",
+      "description": "A refreshing salad featuring seasonal ingredients.",
+      "price": 8.99
+    },
+    {
+      "id": 5,
+      "name": "Glazed Tomato Bruschetta",
+      "category": "Starters",
+      "description": "Toasted bread topped with ripe tomatoes and a balsamic glaze.",
+      "price": 9.99
+    },
+    {
+      "id": 6,
+      "name": "Baked Oysters Rockefeller",
+      "category": "Seafood",
+      "description": "Fresh oysters baked with a creamy spinach and herb topping.",
+      "price": 12.99
+    },
+    {
+      "id": 7,
+      "name": "Grilled Shrimp Skewers",
+      "category": "Seafood",
+      "description": "Juicy shrimp grilled on skewers with a flavorful marinade.",
+      "price": 11.49
+    },
+    {
+      "id": 8,
+      "name": "Seafood Linguine",
+      "category": "Seafood",
+      "description": "Linguine pasta tossed with a medley of seafood in a garlic white wine sauce.",
+      "price": 14.99
+    },
+    {
+      "id": 9,
+      "name": "Shrimp Scampi",
+      "category": "Seafood",
+      "description": "Succulent shrimp sautéed in a garlic and butter sauce.",
+      "price": 13.99
+    },
+    {
+      "id": 10,
+      "name": "Cranberry Juice",
+      "category": "Drinks",
+      "description": "Refreshing cranberry juice served chilled.",
+      "price": 2.99
+    },
+    {
+      "id": 11,
+      "name": "Hot Chocolate",
+      "category": "Drinks",
+      "description": "A comforting and warm cocoa beverage.",
+      "price": 3.49
+    },
+    {
+      "id": 12,
+      "name": "Lemon-Lime Soda",
+      "category": "Drinks",
+      "description": "A fizzy and citrusy soda with a twist of lemon and lime.",
+      "price": 1.99
+    },
+    {
+      "id": 13,
+      "name": "Alcoholic Beverages",
+      "category": "Drinks",
+      "description": "A selection of alcoholic beverages for adults.",
+      "price": 7.99
+    },
+    {
+      "id": 14,
+      "name": "Beef Tenderloin & Red Wine",
+      "category": "Specials",
+      "description": "Tender beef tenderloin served with a rich red wine reduction sauce.",
+      "price": 19.99
+    },
+    {
+      "id": 15,
+      "name": "Mushroom Risotto",
+      "category": "Specials",
+      "description": "Creamy risotto with sautéed mushrooms and Parmesan cheese.",
+      "price": 16.49
+    },
+    {
+      "id": 16,
+      "name": "Lobster Thermidor",
+      "category": "Specials",
+      "description": "Lobster tails baked with a creamy and cheesy sauce.",
+      "price": 22.99
+    },
+    {
+      "id": 17,
+      "name": "Beef Bourguignon",
+      "category": "Specials",
+      "description": "A classic French beef stew simmered with red wine and herbs.",
+      "price": 18.99
+    },
+    {
+      "id": 18,
+      "name": "Barbecue Ribs",
+      "category": "Meat",
+      "description": "Tender and smoky barbecue ribs served with coleslaw.",
+      "price": 15.99
+    },
+    {
+      "id": 19,
+      "name": "Roasted Turkey",
+      "category": "Meat",
+      "description": "Succulent roasted turkey with all the trimmings.",
+      "price": 17.49
+    },
+    {
+      "id": 20,
+      "name": "Beef Stroganoff",
+      "category": "Meat",
+      "description": "Sliced beef in a creamy mushroom and sour cream sauce over egg noodles.",
+      "price": 14.99
+    }
+  ]
+  
