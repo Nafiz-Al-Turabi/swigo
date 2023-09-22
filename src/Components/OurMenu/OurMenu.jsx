@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import HomeMenuCard from '../../Cards/HomeMenuCard/HomeMenuCard';
+import { Link } from 'react-router-dom';
 
 const OurMenu = () => {
     const [menuItems, setMenuItems] = useState([]);
@@ -37,38 +38,38 @@ const OurMenu = () => {
                         <button
                             className={`mx-2 ${selectedCategory === 'Salad' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Salad')}
-                        ><i class="fa-solid fa-carrot mr-4"></i>
+                        ><i className="fa-solid fa-carrot mr-4"></i>
                             Salad
                         </button>
                         <button
                             className={`mx-2 ${selectedCategory === 'Soup' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Soup')}
-                        ><i class="fa-solid fa-bowl-food mr-4"></i>
+                        ><i className="fa-solid fa-bowl-food mr-4"></i>
                             Soup
                         </button>
                         <button
                             className={`mx-2 ${selectedCategory === 'Pizza' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Pizza')}
-                        ><i class="fa-solid fa-pizza-slice mr-4"></i>
+                        ><i className="fa-solid fa-pizza-slice mr-4"></i>
                             Pizza
                         </button>
                         <button
                             className={`mx-2 ${selectedCategory === 'Dessert' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Dessert')}
-                        ><i class="fa-solid fa-ice-cream mr-4"></i>
+                        ><i className="fa-solid fa-ice-cream mr-4"></i>
                             Dessert
                         </button>
                         <button
                             className={`mx-2 ${selectedCategory === 'Popular' ? 'py-2 px-5 font-bold bg-red-50 text-red-500 rounded-lg' : 'py-2 px-5 font-bold hover:text-red-500 hover:bg-red-50 hover:rounded-lg duration-300 '}`}
                             onClick={() => handleCategoryChange('Popular')}
-                        ><i class="fa-solid fa-users mr-4"></i>
+                        ><i className="fa-solid fa-users mr-4"></i>
                             Popular
                         </button>
                     </div>
-                    <div>
-                        <p
+                    <div> 
+                        <Link to="/menu"
                             className='text-red-500 font-semibold py-2 px-5 -mb-5  border border-red-600 rounded-lg hover:bg-red-600 hover:text-white hover:shadow-red-500 duration-300 ease-linear '
-                        >View All</p>
+                        >View All</Link>
                     </div>
                 </div>
                 <div className='grid grid-cols-3 gap-5 mt-10'>
