@@ -1,0 +1,37 @@
+.menu-card {
+    position: relative;
+    overflow: hidden; 
+    transition: all 0.3s ease-out;
+    z-index: 1; 
+}
+
+.menu-card .card-overlay {
+    height: 45px;
+    width: 45px;
+    background: #212121;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    transform-origin: bottom right; 
+    transform: scale(1); 
+    transition: transform 0.5s ease;
+    z-index: -1; 
+}
+
+.menu-card:hover .card-overlay {
+    transform: scale(8); 
+    z-index: -1;
+}
+.menu-card:hover .menu-btn{
+ background-color: #fff;
+ color: #ee2737;
+ transition-duration: 0.5s;
+}
+.menu-card:hover .menu-text{
+    color: #fff;
+    transition-duration: 1s;
+}
+.menu-card:hover .menu-price{
+    color: #fff;
+    transition-duration: 1s;
+}

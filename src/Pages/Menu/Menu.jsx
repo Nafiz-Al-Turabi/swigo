@@ -1,8 +1,15 @@
-import React from 'react';
-import './Menu.css'
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import MenuCard from '../../Cards/MenuCard/MenuCard';
+import ScrollToTopButton from '../../Components/ScrollToTop/ScrollToTopButton';
 
 const Menu = () => {
+    const [menus, setMenus] = useState([])
+    useEffect(() => {
+        fetch('menu3.json')
+            .then(res => res.json())
+            .then(data => setMenus(data))
+    }, [])
     return (
         <div className='pt-32'>
             <div className='flex items-center justify-between'>
@@ -17,6 +24,19 @@ const Menu = () => {
                     <p className='text-lg'>Our Menu</p>
                 </h3>
             </div>
+            <hr className='mb-10'/>
+
+            <div className=' max-w-6xl mx-auto'>
+                <div className='grid grid-cols-4 gap-5'>
+                    {
+                        menus.map(menu => <MenuCard
+                            menu={menu}
+                            key={'id'}
+                        ></MenuCard>)
+                    }
+                </div>
+            </div>
+            <ScrollToTopButton></ScrollToTopButton>
         </div>
     );
 };
